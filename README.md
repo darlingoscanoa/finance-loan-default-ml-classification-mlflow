@@ -1,4 +1,3 @@
-text
 # AI-Powered Credit Risk Assessment: MLflow-Tracked Classification Models for Loan Default Prediction
 
 ## Overview
@@ -15,8 +14,7 @@ This repository showcases my experience in finance-focused machine learning, spe
 - Production-ready code structure with proper OOP implementation
 
 ## Project Structure
-
-
+```
 loan_default_prediction/
 │
 ├── data/
@@ -44,8 +42,7 @@ loan_default_prediction/
 ├── main.py # Main script to run experiments
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
-text
-
+```
 ## Installation
 
 ```bash
@@ -60,39 +57,56 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-Usage
-To run the experiments:
-bash
-python main.py
+#To Start the MLflow server
+ server --host 0.0.0.0 --port 5000
 
+```
+
+## Usage
+To run the experiments:
+```bash
+python main.py
+```
 This script will load the data, train multiple models, track experiments with MLflow, and generate performance visualizations.
-MLflow Tracking
+
+## MLflow Tracking
+
 The project uses MLflow to track:
+
 Model parameters
 Performance metrics (Accuracy, Precision, Recall, F1-score, ROC-AUC)
-Model artifacts
-To start the MLflow server:
-bash
-mlflow server --host 0.0.0.0 --port 5000
 
-Then, to view the MLflow UI, open a web browser and navigate to:
-text
+Model artifacts
+To view the MLflow UI, open a web browser and navigate to:
+
 http://localhost:5000
 
-Model Performance
+## Model Performance
 The project includes detailed performance analysis:
-Confusion Matrix visualization
-ROC curves
-Performance metrics comparison
-Cross-validation results
+
+-Confusion Matrix visualization
+
+-ROC curves
+
+-Performance metrics comparison
+
+-Cross-validation results
+
 Results are saved in the visualization_outputs directory and can be viewed in the MLflow UI.
-Future Work
+
+## Future Work
+
 While this project focused on the core classification modeling task, future work will explore:
-Extensive feature engineering
-Data balancing techniques
-Advanced model architectures
+
+-Extensive feature engineering
+
+-Data balancing techniques
+
+-Advanced model architectures
+
 Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-text
