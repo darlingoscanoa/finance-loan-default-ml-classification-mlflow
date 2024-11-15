@@ -94,6 +94,10 @@ The project includes detailed performance analysis:
 
 Results are saved in the visualization_outputs directory and can be viewed in the MLflow UI.
 
+You can also see our insights in:
+
+[Comparación de modelos MLflow](notebooks/mlflow_model_comparison.md)
+
 ## Future Work
 
 While this project focused on the core classification modeling task, future work will explore:
