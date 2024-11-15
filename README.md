@@ -96,7 +96,7 @@ Results are saved in the visualization_outputs directory and can be viewed in th
 
 You can also see our insights in:
 
-[Comparación de modelos MLflow](notebooks/mlflow_model_comparison.md)
+[MLflow Model Comparison](notebooks/mlflow_model_comparison.md)
 
 ## Future Work
 
